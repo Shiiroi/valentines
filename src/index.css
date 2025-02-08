@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.custom-button {
+  background-color: #C2185B !important;
+  border-color: #C2185B !important;
+}
+
+.custom-button:hover {
+  background-color: #A01449 !important;
+  border-color: #A01449 !important;
+}

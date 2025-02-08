@@ -1,0 +1,52 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: pink;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.heart {
+  position: absolute;
+  bottom: -50px;
+  background-color: red;
+  transform: rotate(-45deg); /* changed from 45deg to -45deg */
+  animation: floatUpHearts linear infinite;
+  opacity: 0.7;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.heart::before {
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.heart::after {
+  left: 50%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes floatUpHearts {
+  0% {
+    transform: translateY(0) rotate(-45deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-110vh) rotate(-45deg);
+    opacity: 0;
+  }
+}
