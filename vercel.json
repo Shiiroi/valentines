@@ -1,11 +1,8 @@
 {
   "routes": [
     {
-      "src": "/(.*)",
-      "status": 200,
-      "headers": {
-        "Location": "https://valentines.vercel.app/$1"
-      }
+      "src": "/[^.]+",
+      "dest": "/"
     }
   ]     
 }
