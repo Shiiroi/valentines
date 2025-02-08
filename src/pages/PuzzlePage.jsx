@@ -7,9 +7,9 @@ import LevelTracker from "../components/LevelTracker";
 import NextLevelModal from "../components/NextLevelModal";
 
 const imagesList = [
-  "../../public/valen1.jpg",
-  "../../public/valen2.jpg",
-  "../../public/valen3.jpg",
+  "/valen1.jpg",
+  "/valen2.jpg",
+  "/valen3.jpg",
 ];
 
 function PuzzlePage() {

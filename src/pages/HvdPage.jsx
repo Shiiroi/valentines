@@ -4,10 +4,9 @@ import PhotoFlipper from "../components/PhotoFlipper";
 import "../float.css";
 
 const photos = [
-  { front: "../../public/valen4.jpg", back: "../../public/valen5.jpg" },
-  { front: "../../public/valen6.jpg", back: "../../public/valen7.jpg" },
-  { front: "../../public/valen8.jpg", back: "../../public/valen9.jpg" },
-  // add more photo pairs as needed
+  { front: "/valen4.jpg", back: "/valen5.jpg" },
+  { front: "/valen6.jpg", back: "/valen7.jpg" },
+  { front: "/valen8.jpg", back: "/valen9.jpg" },
 ];
 
 const HvdPage = () => {
